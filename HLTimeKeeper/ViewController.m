@@ -1,23 +1,20 @@
-# HLTimeKeeper
-iOS计时器，可用于电商cell倒计时等
+//
+//  ViewController.m
+//  HLTimeKeeper
+//
+//  Created by JJB_iOS on 2022/6/9.
+//
 
-##### 支持使用CocoaPods引入, Podfile文件中添加:
+#import "ViewController.h"
+#import "HLTimeKeeper.h"
 
-``` objc
-pod 'HLTimeKeeper', '1.0.0'
-```
+@interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
 
-##### 简介
+@end
 
-✅ 单例模式，全局只使用一个计时器
+@implementation ViewController
 
-✅ 可用在cell等重用视图上
-
-✅ 应用前后台切换后计时准确
-
-基本使用方法:<p>
-
-``` objc
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -53,18 +50,5 @@ pod 'HLTimeKeeper', '1.0.0'
 - (IBAction)startAction:(UIButton *)sender {
     [kHLTimeKeeper start];
 }
-```
 
-# Requirements
-
-iOS 9.0 +, Xcode 7.0 +
-
-# Version
-
-* 1.0.0 :
-
-  完成HLTimeKeeper基础搭建
-
-# License
-
-HLTimeKeeper is available under the MIT license. See the LICENSE file for more info.
+@end
