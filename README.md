@@ -15,7 +15,7 @@ pod 'HLTimeKeeper', '1.0.0'
 
 ✅ 应用前后台切换后计时准确
 # Demonstration
-![image]()
+![image](https://github.com/huangchangweng/HLTimeKeeper/blob/main/QQ20220610-105425-HD.gif)
 
 基本使用方法:<p>
 
