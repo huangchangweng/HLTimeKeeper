@@ -14,6 +14,8 @@ pod 'HLTimeKeeper', '1.0.0'
 ✅ 可用在cell等重用视图上
 
 ✅ 应用前后台切换后计时准确
+# Demonstration
+![image]()
 
 基本使用方法:<p>
 
